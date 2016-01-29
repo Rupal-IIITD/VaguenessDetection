@@ -3,13 +3,15 @@ Deep Learning based Tool for Multi-lingual Vagueness Detection
 
 For any details, contact Bargav Jayaraman (bargavjayaraman@gmail.com)
 
+Note: NR-GoldSet is present in 'annotated dataset/raw/' folder. It consists of 3 datasets each containing 500 sentences manually annotated for vagueness. The 500 sentences of each language (English/Spanish/Portuguese) are translations of each other across the three langauges.
+
 Requirements:
 - Download and install Python 2.x or above
 - Download and install Theano from 'http://deeplearning.net/software/theano/' (elaborate instructions for installing both python and theano are given on this website)
 
 Instructions for using the Vagueness Detection Tool:
 - For detecting vagueness in Spanish/Portuguese sentences, run the script 'VaguenessDetector.py' and provide the Spanish/Portuguese sentences (For starters, sample test sentences are provided in the script as input for vagueness detection)
-- For training the Tool from the scratch in Spanish/Portuguese, run the script 'VaguenessDetectorTrain.py' (the script also evaluates the performance of the Tool on annotated gold-set of 500 Spanish/Portuguese/English sentences)
+- For training the Tool from the scratch in Spanish/Portuguese, run the script 'VaguenessDetectorTrain.py' (the script also evaluates the performance of the Tool on annotated gold-set of 500 English/Spanish/Portuguese sentences)
 - For training the Tool in any other European language, run the script 'VaguenessDetectorTrain.py' and replace the Spanish/Portuguese training data with the required European language (parallel data can be found in Europarl dataset 'http://www.statmt.org/europarl/'). It is, however, the responsibility of the User to preprocess the dataset and align the parallel English-Target language sentences. Feel free to contact the author for further help.
 - For any other non-European language, a considerable size of parallel corpus should be created containing English-Target langauge sentence pairs.
 
