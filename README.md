@@ -5,7 +5,7 @@ For any details, contact Bargav Jayaraman (bargavjayaraman@gmail.com)
 
 Requirements:
 - Download and install Python 2.x or above
-- Download and install Theano from http://deeplearning.net/software/theano/ (elaborate instructions for installing both python and theano are given on this website)
+- Download and install Theano from 'http://deeplearning.net/software/theano/' (elaborate instructions for installing both python and theano are given on this website)
 
 Instructions for using the Vagueness Detection Tool:
 - For detecting vagueness in Spanish/Portuguese sentences, run the script 'VaguenessDetector.py' and provide the Spanish/Portuguese sentences (For starters, sample test sentences are provided in the script as input for vagueness detection)
