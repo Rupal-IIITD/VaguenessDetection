@@ -1,0 +1,3 @@
+The annotations are done according to the guidelines of: Vincze, Veronika et al. “The BioScope Corpus: Biomedical Texts Annotated for Uncertainty, Negation and Their Scopes.” BMC Bioinformatics 9.Suppl 11 (2008): S9. PMC. Web. 2 Feb. 2016.
+
+Vague terms are marked with angle brackets '<' and '>'. For instance a sentence: "Report the error as soon as possible" will be marked with vagueness as "Report the error <as soon as possible>", where 'as soon as possible' is a vague term.
